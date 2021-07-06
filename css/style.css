@@ -1,134 +1,129 @@
-body{
-    margin: 0;
-    font-size: 18px;
+body {
+  margin: 0;
+  font-size: 18px;
 }
-.container-flex{
-    display: flex;
-    margin-bottom: 50px;
-
+.container-flex {
+  display: flex;
+  margin-bottom: 50px;
 }
-.container-inner-div{
-    width: 50%;
-    margin: 80px;
+.container-inner-div {
+  width: 50%;
+  margin: 80px;
 }
-.banner-section{
-    margin-bottom: 50px;
+.banner-section {
+  margin-bottom: 50px;
 }
-.banner-section h1{
-    font-size: 50px;
-    font-weight: 700;
-    
+.banner-section h1 {
+  font-size: 50px;
+  font-weight: 700;
 }
-.container-inner-div p{
- width: 70%;
- padding-bottom: 10px;
- text-align: justify;
+.container-inner-div p {
+  width: 70%;
+  padding-bottom: 10px;
+  text-align: justify;
 }
-.orange-text{
-    color: #FB934A;
+.orange-text {
+  color: #fb934a;
 }
-.btn-design{
-    text-decoration: none;
-    background-image:linear-gradient(#FD4F30, #FB8F48);
-    padding: 15px 30px;
-    color: white;
-    font-weight: 700;
-    border-radius: 25px;
+.btn-design {
+  text-decoration: none;
+  background-image: linear-gradient(#fd4f30, #fb8f48);
+  padding: 15px 30px;
+  color: white;
+  font-weight: 700;
+  border-radius: 25px;
 }
 
-.banner-section .container-inner-div img{
-    width: 80%;
+.banner-section .container-inner-div img {
+  width: 80%;
 }
-.aboutme-section .container-inner-div img{
-    width: 50%;
+.aboutme-section .container-inner-div img {
+  width: 50%;
 }
-.aboutme-section{
-    background-color: #FFF4EE;
-    background-image: url(../images/shapes/aboutme-bg.png);
-    background-repeat: no-repeat;
-    margin-bottom: 50px;
+.aboutme-section {
+  background-color: #fff4ee;
+  background-image: url(../images/shapes/aboutme-bg.png);
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
-.myrec-inner-div{
-width: 33.33%;
-box-shadow: 5px 5px 40px rgb(218, 212, 212);
-/* background-color: red; */
-margin: 40px;
-padding: 10px 10px;
-border-radius: 20px;
-justify-content: center;
-} 
-.my-rec-images{
-    display: block;
-    text-align: center;
+.myrec-inner-div {
+  width: 33.33%;
+  box-shadow: 5px 5px 40px rgb(218, 212, 212);
+  /* background-color: red; */
+  margin: 40px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  justify-content: center;
 }
-.myrec-inner-div img{
-width: 100%;
+.my-rec-images {
+  display: block;
+  text-align: center;
 }
-.myrec-inner-div p{
-    text-align: justify;
-    
+.myrec-inner-div img {
+  width: 100%;
 }
-.my-recipes{
-    margin-bottom: 50px;
+.myrec-inner-div p {
+  text-align: justify;
+}
+.my-recipes {
+  margin-bottom: 50px;
 }
 .my-rec-head {
-    text-align: center;
-    
+  text-align: center;
 }
-.rec-title{
-    
-    font-weight:bold;
+.rec-title {
+  font-weight: bold;
 }
-.social-section{
-text-align: center;
-box-shadow: 5px 5px 40px rgb(218, 213, 213);
-margin: 40px;
-border-radius: 10px;
-margin-bottom: 50px;
-
+.social-section {
+  text-align: center;
+  box-shadow: 5px 5px 40px rgb(218, 213, 213);
+  margin: 40px;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
-.social-inner-div{
-    width: 33.33%;
-    padding: 10px;
-    
+.social-inner-div {
+  width: 33.33%;
+  padding: 10px;
 }
-.footer{
-    color: wheat;
-    text-align: center;
-    padding: 50px;
-    background-color: black;
+.footer {
+  color: wheat;
+  text-align: center;
+  padding: 50px;
+  background-color: black;
 }
-.grey-text{
-    color: #5B5B5B;
+.grey-text {
+  color: #5b5b5b;
 }
-.contactus-inner-div{
-    width: 40%;
-   
+.contactus-inner-div {
+  width: 40%;
 }
 
-.contact-middle-div{
-    width: 5%;
-    margin: 10px 70px;
-    margin-bottom: 60px;
-    border-left: 10px solid;
+.contact-middle-div {
+  width: 5%;
+
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 120px;
+  border-left: 10px solid;
   border-image: linear-gradient(#f09e34, #e90f21);
   border-image-slice: 1;
 }
-.contactus-inner-div input,textarea{
-    font-size: 30px;
-    padding: 5px 20px;
-    margin: 10px;
-    border-radius: 25px;
+.contactus-inner-div input,
+textarea {
+  font-size: 30px;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 25px;
 }
-.contact-us{
-    margin: 20px;
-    background-image: url(../images/shapes/contactus.png);
-    background-repeat: no-repeat;
-    background-color:#F1D0C6;
-    margin-top: 50px;
+.contact-us {
+  padding-top: 30px;
+  margin: 20px;
+  background-image: url(../images/shapes/contactus.png);
+  background-repeat: no-repeat;
+  background-color: #f1d0c6;
+  margin-top: 50px;
 }
-.contact-us h2{
-    text-align: center;
-    padding-bottom: 20px;
+.contact-us h2 {
+  text-align: center;
+  padding-bottom: 20px;
 }
-
