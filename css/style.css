@@ -10,8 +10,24 @@ body {
 .container-inner-div {
   width: 50%;
   margin: 80px;
+  margin-top: 50px;
+}
+.header-section a{
+  padding: 10px 15px;
+  text-decoration:  none;
+  
+  border-radius: 20px;
+  
+  color: rgb(245, 160, 174);
+  
+}
+.header-section h1{
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 .banner-section {
+  margin-top: -150px;
   margin-bottom: 50px;
 }
 .banner-section h1 {
